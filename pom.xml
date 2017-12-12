@@ -22,4 +22,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+   <distributionManagement>
+     
+     
+     
+        <snapshotRepository>
+      <id>Snapshot</id>
+      <url>http://localhost:8081/nexus/content/repositories/Snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>Release</id>
+      <name>Releases</name>
+      <url>http://localhost:8081/nexus/content/repositories/Release/</url>
+    </repository>
+
+ 
+     
+  </distributionManagement>
 </project>
+ 
