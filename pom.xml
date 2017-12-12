@@ -37,7 +37,6 @@
       <id>Snapshot</id>
       <name>Snapshots</name>
       <url>http://localhost:8081/nexus/content/repositories/Snapshot/</url>
-      <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
 </project>
